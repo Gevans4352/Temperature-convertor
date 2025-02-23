@@ -1,0 +1,51 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: rgb(219, 217, 217);
+}
+h1 {
+  color: rgba(16, 97, 70, 0.356);
+}
+.arrangement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+form {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  max-width: 350px;
+  /* margin: auto; */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px cornflowerblue;
+}
+#textBox {
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px;
+  border: 1px solid cornflowerblue;
+  margin-bottom: 15px;
+}
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+button {
+  margin-top: 15px;
+  background-color: rgba(73, 241, 241, 0.705);
+  font-size: 20px;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: rgba(18, 18, 32, 0.308);
+}
+button:hover {
+  background-color: rgb(73, 241, 241);
+}
+#result {
+  font-size: 17px;
+  font-weight: bold;
+}
